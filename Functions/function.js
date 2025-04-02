@@ -36,7 +36,7 @@ function userLogInMessage(username){
 
 }
 // console.log (userLogInMessage("Gogo"))
-console.log (userLogInMessage())
+// console.log (userLogInMessage())
 
 
 function userLoggedOut(username="Dobo"){
@@ -46,5 +46,17 @@ function userLoggedOut(username="Dobo"){
     }
     return `${username} just logged Out`
 }
-console.log(userLoggedOut());
+// console.log(userLoggedOut());
+
+
+
+// REST OPERATOR
+
+function addTwoCart(val1,val2, ...num){
+    return num;
+
+}
+console.log(addTwoCart(300,800,5000,600,400,300,200));
+
+
 
